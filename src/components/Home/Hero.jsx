@@ -1,11 +1,11 @@
-import Image from 'next/image'
+
 import React from 'react'
 import Dev from "@/assets/devmo.jpg"
 function Hero() {
     return (
         <>
             <div className='my-12 flex flex-col  gap-5 items-center'>
-                <Image className='rounded-full ' src={Dev} alt='Dev mo' />
+                <img className='rounded-full ' src={Dev} alt='Dev mo' />
                 <h1 className='font-bold text-4xl'>Dev Moha</h1>
                 <p>
                     I blog about web development - Especially front end frameworks like Next js
